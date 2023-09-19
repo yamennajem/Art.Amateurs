@@ -1,0 +1,90 @@
+* {
+padding: 0%; margin: 0%;
+font-family: "miller-banner", serif;
+word-spacing: 3px;
+letter-spacing: 1px;
+font-style: normal;
+}
+                                                /* HOME PAGE */
+img.logo {
+    width: auto; height: 70px;
+    cursor: pointer;
+    margin-right: 350px;
+}
+
+.indexbody {
+    background-image: url('imgs/jansbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: grey;
+    background-blend-mode: multiply;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    padding-bottom: 5px;
+    margin-bottom: 5px; 
+    border-bottom: solid 1px #e1e1e1;
+    color: white;
+}
+
+.topbar li{
+    display: inline-block;
+    padding: 0px 50px;
+    list-style-type: none;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.phome {
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.cnb{
+    text-align: center;
+    font-size: 20px;
+    width: 200px; height: 50px;
+    margin-left: 670px;
+    border: 2px solid;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+                                                     /* ABOUT PAGE */
+
+.aboutbody {
+    background-image: url('../imgs/seascapebgs.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.introabout {
+    text-align: center;
+    font-size: 20px;
+}
+
+.introabout {
+    color: white;
+}
